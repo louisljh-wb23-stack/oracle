@@ -1,0 +1,5 @@
+-- PRICING: one active rule per bus_type, base_fare + rate_per_km
+INSERT INTO pricing VALUES ('P001', 'BT001', 50.00,  1.50, 'RM',      TIMESTAMP '2026-01-01 00:00:00', NULL);
+INSERT INTO pricing VALUES ('P002', 'BT002', 80.00,  2.50, 'RM',      TIMESTAMP '2026-01-01 00:00:00', NULL);
+INSERT INTO pricing VALUES ('P003', 'BT003', 120.00, 4.00, 'RM',      TIMESTAMP '2026-01-01 00:00:00', NULL);
+INSERT INTO pricing VALUES ('P004', 'BT004', 50.00,  2.00, 'GALLEON', TIMESTAMP '2026-01-01 00:00:00', NULL);
