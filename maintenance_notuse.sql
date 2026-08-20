@@ -1,0 +1,166 @@
+INSERT INTO maintenance_records (maintenance_id, bus_id, maintenance_date, completed_date, maintenance_type, cost, description) VALUES ('M001', 'VAB 1021', TO_DATE('01-02-2022', 'DD-MM-YYYY'), TO_DATE('07-02-2022', 'DD-MM-YYYY'), 'Oil Change', 223.00, 'Engine oil level was low and the oil was heavily contaminated');
+INSERT INTO maintenance_records VALUES ('M002', 'VAB 2187', TO_DATE('10-02-2022','DD-MM-YYYY'), TO_DATE('11-02-2022','DD-MM-YYYY'), 'Brake Inspection', 266.00, 'Brake pads showed significant wear and braking performance was reduced');
+INSERT INTO maintenance_records VALUES ('M003', 'VAB 3345', TO_DATE('19-02-2022','DD-MM-YYYY'), TO_DATE('20-02-2022','DD-MM-YYYY'), 'Tyre Replacement', 309.00, 'Tyre tread depth was below the safe operating limit');
+INSERT INTO maintenance_records VALUES ('M004', 'VAB 4512', TO_DATE('28-02-2022','DD-MM-YYYY'), TO_DATE('06-03-2022','DD-MM-YYYY'), 'Engine Service', 352.00, 'Engine produced abnormal vibration during acceleration');
+INSERT INTO maintenance_records VALUES ('M005', 'VAB 5678', TO_DATE('09-03-2022','DD-MM-YYYY'), TO_DATE('12-03-2022','DD-MM-YYYY'), 'Air Conditioning Service', 395.00, 'Air conditioning cooling performance decreased significantly');
+INSERT INTO maintenance_records VALUES ('M006', 'VAB 6734', TO_DATE('18-03-2022','DD-MM-YYYY'), TO_DATE('20-03-2022','DD-MM-YYYY'), 'Oil Change', 438.00, 'Engine oil had become dark and degraded after extended use');
+INSERT INTO maintenance_records VALUES ('M007', 'VAB 7891', TO_DATE('27-03-2022','DD-MM-YYYY'), TO_DATE('29-03-2022','DD-MM-YYYY'), 'Brake Inspection', 481.00, 'Abnormal squeaking noise was heard during braking');
+INSERT INTO maintenance_records VALUES ('M008', 'VAB 8456', TO_DATE('05-04-2022','DD-MM-YYYY'), TO_DATE('07-04-2022','DD-MM-YYYY'), 'Tyre Replacement', 524.00, 'Tyre had uneven tread wear across the contact surface');
+INSERT INTO maintenance_records VALUES ('M009', 'VAB 9123', TO_DATE('14-04-2022','DD-MM-YYYY'), TO_DATE('20-04-2022','DD-MM-YYYY'), 'Engine Service', 567.00, 'Engine performance decreased and acceleration became weaker');
+INSERT INTO maintenance_records VALUES ('M010', 'VAB 1265', TO_DATE('23-04-2022','DD-MM-YYYY'), TO_DATE('24-04-2022','DD-MM-YYYY'), 'Air Conditioning Service', 610.00, 'Air conditioning system was blowing warm air during operation');
+
+INSERT INTO maintenance_records VALUES ('M011', 'JQX 2034', TO_DATE('02-05-2022','DD-MM-YYYY'), TO_DATE('08-05-2022','DD-MM-YYYY'), 'Oil Change', 653.00, 'Oil pressure was lower than the recommended operating range');
+INSERT INTO maintenance_records VALUES ('M012', 'JQX 3178', TO_DATE('11-05-2022','DD-MM-YYYY'), TO_DATE('17-05-2022','DD-MM-YYYY'), 'Brake Inspection', 696.00, 'Brake fluid level was below the recommended level');
+INSERT INTO maintenance_records VALUES ('M013', 'JQX 4296', TO_DATE('20-05-2022','DD-MM-YYYY'), TO_DATE('25-05-2022','DD-MM-YYYY'), 'Tyre Replacement', 739.00, 'A crack was found on the tyre sidewall');
+INSERT INTO maintenance_records VALUES ('M014', 'JQX 5361', TO_DATE('29-05-2022','DD-MM-YYYY'), TO_DATE('30-05-2022','DD-MM-YYYY'), 'Engine Service', 782.00, 'Engine temperature increased above the normal operating range');
+INSERT INTO maintenance_records VALUES ('M015', 'JQX 6482', TO_DATE('07-06-2022','DD-MM-YYYY'), TO_DATE('12-06-2022','DD-MM-YYYY'), 'Air Conditioning Service', 825.00, 'Weak airflow was detected from the cabin air vents');
+INSERT INTO maintenance_records VALUES ('M016', 'JQX 7519', TO_DATE('16-06-2022','DD-MM-YYYY'), TO_DATE('20-06-2022','DD-MM-YYYY'), 'Oil Change', 868.00, 'Engine oil contained visible sludge and required replacement');
+INSERT INTO maintenance_records VALUES ('M017', 'JQX 8643', TO_DATE('25-06-2022','DD-MM-YYYY'), TO_DATE('26-06-2022','DD-MM-YYYY'), 'Brake Inspection', 911.00, 'Uneven brake pad wear was detected on the front wheels');
+INSERT INTO maintenance_records VALUES ('M018', 'JQX 9752', TO_DATE('04-07-2022','DD-MM-YYYY'), TO_DATE('05-07-2022','DD-MM-YYYY'), 'Tyre Replacement', 954.00, 'Tyre pressure was repeatedly dropping during operation');
+INSERT INTO maintenance_records VALUES ('M019', 'JQX 1846', TO_DATE('13-07-2022','DD-MM-YYYY'), TO_DATE('14-07-2022','DD-MM-YYYY'), 'Engine Service', 997.00, 'Abnormal knocking noise was detected from the engine compartment');
+INSERT INTO maintenance_records VALUES ('M020', 'JQX 2967', TO_DATE('22-07-2022','DD-MM-YYYY'), TO_DATE('24-07-2022','DD-MM-YYYY'), 'Air Conditioning Service', 220.00, 'Unusual noise was coming from the air conditioning compressor');
+
+INSERT INTO maintenance_records VALUES ('M021', 'PNK 1058', TO_DATE('31-07-2022','DD-MM-YYYY'), TO_DATE('02-08-2022','DD-MM-YYYY'), 'Oil Change', 263.00, 'Oil leakage was detected around the engine and oil level was below normal');
+INSERT INTO maintenance_records VALUES ('M022', 'PNK 2174', TO_DATE('09-08-2022','DD-MM-YYYY'), TO_DATE('14-08-2022','DD-MM-YYYY'), 'Brake Inspection', 306.00, 'Brake pedal felt softer than normal during operation');
+INSERT INTO maintenance_records VALUES ('M023', 'PNK 3295', TO_DATE('18-08-2022','DD-MM-YYYY'), TO_DATE('23-08-2022','DD-MM-YYYY'), 'Tyre Replacement', 349.00, 'Tyre surface showed severe wear and signs of ageing');
+INSERT INTO maintenance_records VALUES ('M024', 'PNK 4316', TO_DATE('27-08-2022','DD-MM-YYYY'), TO_DATE('28-08-2022','DD-MM-YYYY'), 'Engine Service', 392.00, 'Engine warning indicator was activated during operation');
+INSERT INTO maintenance_records VALUES ('M025', 'PNK 5427', TO_DATE('05-09-2022','DD-MM-YYYY'), TO_DATE('10-09-2022','DD-MM-YYYY'), 'Air Conditioning Service', 435.00, 'Refrigerant level was suspected to be below the required level');
+INSERT INTO maintenance_records VALUES ('M026', 'PNK 6583', TO_DATE('14-09-2022','DD-MM-YYYY'), TO_DATE('16-09-2022','DD-MM-YYYY'), 'Oil Change', 478.00, 'Engine oil level was low and the oil was heavily contaminated');
+INSERT INTO maintenance_records VALUES ('M027', 'PNK 7641', TO_DATE('23-09-2022','DD-MM-YYYY'), TO_DATE('29-09-2022','DD-MM-YYYY'), 'Brake Inspection', 521.00, 'Brake pads showed significant wear and braking performance was reduced');
+INSERT INTO maintenance_records VALUES ('M028', 'PNK 8752', TO_DATE('02-10-2022','DD-MM-YYYY'), TO_DATE('08-10-2022','DD-MM-YYYY'), 'Tyre Replacement', 564.00, 'Tyre tread depth was below the safe operating limit');
+INSERT INTO maintenance_records VALUES ('M029', 'PNK 9864', TO_DATE('11-10-2022','DD-MM-YYYY'), TO_DATE('17-10-2022','DD-MM-YYYY'), 'Engine Service', 607.00, 'Engine produced abnormal vibration during acceleration');
+INSERT INTO maintenance_records VALUES ('M030', 'PNK 1937', TO_DATE('20-10-2022','DD-MM-YYYY'), TO_DATE('25-10-2022','DD-MM-YYYY'), 'Air Conditioning Service', 650.00, 'Air conditioning cooling performance decreased significantly');
+
+INSERT INTO maintenance_records VALUES ('M031', 'WDN 2048', TO_DATE('29-10-2022','DD-MM-YYYY'), TO_DATE('02-11-2022','DD-MM-YYYY'), 'Oil Change', 693.00, 'Engine oil had become dark and degraded after extended use');
+INSERT INTO maintenance_records VALUES ('M032', 'WDN 3169', TO_DATE('07-11-2022','DD-MM-YYYY'), TO_DATE('09-11-2022','DD-MM-YYYY'), 'Brake Inspection', 736.00, 'Abnormal squeaking noise was heard during braking');
+INSERT INTO maintenance_records VALUES ('M033', 'WDN 4275', TO_DATE('16-11-2022','DD-MM-YYYY'), TO_DATE('20-11-2022','DD-MM-YYYY'), 'Tyre Replacement', 779.00, 'Tyre had uneven tread wear across the contact surface');
+INSERT INTO maintenance_records VALUES ('M034', 'WDN 5386', TO_DATE('25-11-2022','DD-MM-YYYY'), TO_DATE('30-11-2022','DD-MM-YYYY'), 'Engine Service', 822.00, 'Engine performance decreased and acceleration became weaker');
+INSERT INTO maintenance_records VALUES ('M035', 'WDN 6497', TO_DATE('04-12-2022','DD-MM-YYYY'), TO_DATE('07-12-2022','DD-MM-YYYY'), 'Air Conditioning Service', 865.00, 'Air conditioning system was blowing warm air during operation');
+INSERT INTO maintenance_records VALUES ('M036', 'WDN 7528', TO_DATE('13-12-2022','DD-MM-YYYY'), TO_DATE('20-12-2022','DD-MM-YYYY'), 'Oil Change', 908.00, 'Oil pressure was lower than the recommended operating range');
+INSERT INTO maintenance_records VALUES ('M037', 'WDN 8639', TO_DATE('22-12-2022','DD-MM-YYYY'), TO_DATE('29-12-2022','DD-MM-YYYY'), 'Brake Inspection', 951.00, 'Brake fluid level was below the recommended level');
+INSERT INTO maintenance_records VALUES ('M038', 'WDN 9741', TO_DATE('31-12-2022','DD-MM-YYYY'), TO_DATE('01-01-2023','DD-MM-YYYY'), 'Tyre Replacement', 994.00, 'A crack was found on the tyre sidewall');
+INSERT INTO maintenance_records VALUES ('M039', 'WDN 1852', TO_DATE('09-01-2023','DD-MM-YYYY'), TO_DATE('16-01-2023','DD-MM-YYYY'), 'Engine Service', 217.00, 'Engine temperature increased above the normal operating range');
+INSERT INTO maintenance_records VALUES ('M040', 'WDN 2963', TO_DATE('18-01-2023','DD-MM-YYYY'), TO_DATE('25-01-2023','DD-MM-YYYY'), 'Air Conditioning Service', 260.00, 'Weak airflow was detected from the cabin air vents');
+
+INSERT INTO maintenance_records VALUES ('M041', 'QAA 3147', TO_DATE('27-01-2023','DD-MM-YYYY'), TO_DATE('29-01-2023','DD-MM-YYYY'), 'Oil Change', 303.00, 'Engine oil contained visible sludge and required replacement');
+INSERT INTO maintenance_records VALUES ('M042', 'QAA 4258', TO_DATE('05-02-2023','DD-MM-YYYY'), TO_DATE('11-02-2023','DD-MM-YYYY'), 'Brake Inspection', 346.00, 'Uneven brake pad wear was detected on the front wheels');
+INSERT INTO maintenance_records VALUES ('M043', 'QAA 5369', TO_DATE('14-02-2023','DD-MM-YYYY'), TO_DATE('18-02-2023','DD-MM-YYYY'), 'Tyre Replacement', 389.00, 'Tyre pressure was repeatedly dropping during operation');
+INSERT INTO maintenance_records VALUES ('M044', 'QAA 6471', TO_DATE('23-02-2023','DD-MM-YYYY'), TO_DATE('26-02-2023','DD-MM-YYYY'), 'Engine Service', 432.00, 'Abnormal knocking noise was detected from the engine compartment');
+INSERT INTO maintenance_records VALUES ('M045', 'QAA 7582', TO_DATE('04-03-2023','DD-MM-YYYY'), TO_DATE('07-03-2023','DD-MM-YYYY'), 'Air Conditioning Service', 475.00, 'Unusual noise was coming from the air conditioning compressor');
+INSERT INTO maintenance_records VALUES ('M046', 'QAA 8693', TO_DATE('13-03-2023','DD-MM-YYYY'), TO_DATE('15-03-2023','DD-MM-YYYY'), 'Oil Change', 518.00, 'Oil leakage was detected around the engine and oil level was below normal');
+INSERT INTO maintenance_records VALUES ('M047', 'QAA 9714', TO_DATE('22-03-2023','DD-MM-YYYY'), TO_DATE('24-03-2023','DD-MM-YYYY'), 'Brake Inspection', 561.00, 'Brake pedal felt softer than normal during operation');
+INSERT INTO maintenance_records VALUES ('M048', 'QAA 1825', TO_DATE('31-03-2023','DD-MM-YYYY'), TO_DATE('07-04-2023','DD-MM-YYYY'), 'Tyre Replacement', 604.00, 'Tyre surface showed severe wear and signs of ageing');
+INSERT INTO maintenance_records VALUES ('M049', 'QAA 2936', TO_DATE('09-04-2023','DD-MM-YYYY'), TO_DATE('12-04-2023','DD-MM-YYYY'), 'Engine Service', 647.00, 'Engine warning indicator was activated during operation');
+INSERT INTO maintenance_records VALUES ('M050', 'QAA 4057', TO_DATE('18-04-2023','DD-MM-YYYY'), TO_DATE('19-04-2023','DD-MM-YYYY'), 'Air Conditioning Service', 690.00, 'Refrigerant level was suspected to be below the required level');
+
+INSERT INTO maintenance_records VALUES ('M051', 'VAB 1021', TO_DATE('27-04-2023','DD-MM-YYYY'), TO_DATE('28-04-2023','DD-MM-YYYY'), 'Oil Change', 733.00, 'Engine oil level was low and the oil was heavily contaminated');
+INSERT INTO maintenance_records VALUES ('M052', 'VAB 2187', TO_DATE('06-05-2023','DD-MM-YYYY'), TO_DATE('10-05-2023','DD-MM-YYYY'), 'Brake Inspection', 776.00, 'Brake pads showed significant wear and braking performance was reduced');
+INSERT INTO maintenance_records VALUES ('M053', 'VAB 3345', TO_DATE('15-05-2023','DD-MM-YYYY'), TO_DATE('16-05-2023','DD-MM-YYYY'), 'Tyre Replacement', 819.00, 'Tyre tread depth was below the safe operating limit');
+INSERT INTO maintenance_records VALUES ('M054', 'VAB 4512', TO_DATE('24-05-2023','DD-MM-YYYY'), TO_DATE('27-05-2023','DD-MM-YYYY'), 'Engine Service', 862.00, 'Engine produced abnormal vibration during acceleration');
+INSERT INTO maintenance_records VALUES ('M055', 'VAB 5678', TO_DATE('02-06-2023','DD-MM-YYYY'), TO_DATE('09-06-2023','DD-MM-YYYY'), 'Air Conditioning Service', 905.00, 'Air conditioning cooling performance decreased significantly');
+INSERT INTO maintenance_records VALUES ('M056', 'VAB 6734', TO_DATE('11-06-2023','DD-MM-YYYY'), TO_DATE('14-06-2023','DD-MM-YYYY'), 'Oil Change', 948.00, 'Engine oil had become dark and degraded after extended use');
+INSERT INTO maintenance_records VALUES ('M057', 'VAB 7891', TO_DATE('20-06-2023','DD-MM-YYYY'), TO_DATE('25-06-2023','DD-MM-YYYY'), 'Brake Inspection', 991.00, 'Abnormal squeaking noise was heard during braking');
+INSERT INTO maintenance_records VALUES ('M058', 'VAB 8456', TO_DATE('29-06-2023','DD-MM-YYYY'), TO_DATE('02-07-2023','DD-MM-YYYY'), 'Tyre Replacement', 214.00, 'Tyre had uneven tread wear across the contact surface');
+INSERT INTO maintenance_records VALUES ('M059', 'VAB 9123', TO_DATE('08-07-2023','DD-MM-YYYY'), TO_DATE('15-07-2023','DD-MM-YYYY'), 'Engine Service', 257.00, 'Engine performance decreased and acceleration became weaker');
+INSERT INTO maintenance_records VALUES ('M060', 'VAB 1265', TO_DATE('17-07-2023','DD-MM-YYYY'), TO_DATE('18-07-2023','DD-MM-YYYY'), 'Air Conditioning Service', 300.00, 'Air conditioning system was blowing warm air during operation');
+
+INSERT INTO maintenance_records VALUES ('M061', 'JQX 2034', TO_DATE('26-07-2023','DD-MM-YYYY'), TO_DATE('01-08-2023','DD-MM-YYYY'), 'Oil Change', 343.00, 'Oil pressure was lower than the recommended operating range');
+INSERT INTO maintenance_records VALUES ('M062', 'JQX 3178', TO_DATE('04-08-2023','DD-MM-YYYY'), TO_DATE('08-08-2023','DD-MM-YYYY'), 'Brake Inspection', 386.00, 'Brake fluid level was below the recommended level');
+INSERT INTO maintenance_records VALUES ('M063', 'JQX 4296', TO_DATE('13-08-2023','DD-MM-YYYY'), TO_DATE('18-08-2023','DD-MM-YYYY'), 'Tyre Replacement', 429.00, 'A crack was found on the tyre sidewall');
+INSERT INTO maintenance_records VALUES ('M064', 'JQX 5361', TO_DATE('22-08-2023','DD-MM-YYYY'), TO_DATE('23-08-2023','DD-MM-YYYY'), 'Engine Service', 472.00, 'Engine temperature increased above the normal operating range');
+INSERT INTO maintenance_records VALUES ('M065', 'JQX 6482', TO_DATE('31-08-2023','DD-MM-YYYY'), TO_DATE('04-09-2023','DD-MM-YYYY'), 'Air Conditioning Service', 515.00, 'Weak airflow was detected from the cabin air vents');
+INSERT INTO maintenance_records VALUES ('M066', 'JQX 7519', TO_DATE('09-09-2023','DD-MM-YYYY'), TO_DATE('10-09-2023','DD-MM-YYYY'), 'Oil Change', 558.00, 'Engine oil contained visible sludge and required replacement');
+INSERT INTO maintenance_records VALUES ('M067', 'JQX 8643', TO_DATE('18-09-2023','DD-MM-YYYY'), TO_DATE('23-09-2023','DD-MM-YYYY'), 'Brake Inspection', 601.00, 'Uneven brake pad wear was detected on the front wheels');
+INSERT INTO maintenance_records VALUES ('M068', 'JQX 9752', TO_DATE('27-09-2023','DD-MM-YYYY'), TO_DATE('30-09-2023','DD-MM-YYYY'), 'Tyre Replacement', 644.00, 'Tyre pressure was repeatedly dropping during operation');
+INSERT INTO maintenance_records VALUES ('M069', 'JQX 1846', TO_DATE('06-10-2023','DD-MM-YYYY'), TO_DATE('13-10-2023','DD-MM-YYYY'), 'Engine Service', 687.00, 'Abnormal knocking noise was detected from the engine compartment');
+INSERT INTO maintenance_records VALUES ('M070', 'JQX 2967', TO_DATE('15-10-2023','DD-MM-YYYY'), TO_DATE('21-10-2023','DD-MM-YYYY'), 'Air Conditioning Service', 730.00, 'Unusual noise was coming from the air conditioning compressor');
+
+INSERT INTO maintenance_records VALUES ('M071', 'PNK 1058', TO_DATE('24-10-2023','DD-MM-YYYY'), TO_DATE('29-10-2023','DD-MM-YYYY'), 'Oil Change', 773.00, 'Oil leakage was detected around the engine and oil level was below normal');
+INSERT INTO maintenance_records VALUES ('M072', 'PNK 2174', TO_DATE('02-11-2023','DD-MM-YYYY'), TO_DATE('09-11-2023','DD-MM-YYYY'), 'Brake Inspection', 816.00, 'Brake pedal felt softer than normal during operation');
+INSERT INTO maintenance_records VALUES ('M073', 'PNK 3295', TO_DATE('11-11-2023','DD-MM-YYYY'), TO_DATE('14-11-2023','DD-MM-YYYY'), 'Tyre Replacement', 859.00, 'Tyre surface showed severe wear and signs of ageing');
+INSERT INTO maintenance_records VALUES ('M074', 'PNK 4316', TO_DATE('20-11-2023','DD-MM-YYYY'), TO_DATE('25-11-2023','DD-MM-YYYY'), 'Engine Service', 902.00, 'Engine warning indicator was activated during operation');
+INSERT INTO maintenance_records VALUES ('M075', 'PNK 5427', TO_DATE('29-11-2023','DD-MM-YYYY'), TO_DATE('01-12-2023','DD-MM-YYYY'), 'Air Conditioning Service', 945.00, 'Refrigerant level was suspected to be below the required level');
+INSERT INTO maintenance_records VALUES ('M076', 'PNK 6583', TO_DATE('08-12-2023','DD-MM-YYYY'), TO_DATE('14-12-2023','DD-MM-YYYY'), 'Oil Change', 988.00, 'Engine oil level was low and the oil was heavily contaminated');
+INSERT INTO maintenance_records VALUES ('M077', 'PNK 7641', TO_DATE('17-12-2023','DD-MM-YYYY'), TO_DATE('18-12-2023','DD-MM-YYYY'), 'Brake Inspection', 211.00, 'Brake pads showed significant wear and braking performance was reduced');
+INSERT INTO maintenance_records VALUES ('M078', 'PNK 8752', TO_DATE('26-12-2023','DD-MM-YYYY'), TO_DATE('27-12-2023','DD-MM-YYYY'), 'Tyre Replacement', 254.00, 'Tyre tread depth was below the safe operating limit');
+INSERT INTO maintenance_records VALUES ('M079', 'PNK 9864', TO_DATE('04-01-2024','DD-MM-YYYY'), TO_DATE('10-01-2024','DD-MM-YYYY'), 'Engine Service', 297.00, 'Engine produced abnormal vibration during acceleration');
+INSERT INTO maintenance_records VALUES ('M080', 'PNK 1937', TO_DATE('13-01-2024','DD-MM-YYYY'), TO_DATE('15-01-2024','DD-MM-YYYY'), 'Air Conditioning Service', 340.00, 'Air conditioning cooling performance decreased significantly');
+
+INSERT INTO maintenance_records VALUES ('M081', 'WDN 2048', TO_DATE('22-01-2024','DD-MM-YYYY'), TO_DATE('29-01-2024','DD-MM-YYYY'), 'Oil Change', 383.00, 'Engine oil had become dark and degraded after extended use');
+INSERT INTO maintenance_records VALUES ('M082', 'WDN 3169', TO_DATE('31-01-2024','DD-MM-YYYY'), TO_DATE('03-02-2024','DD-MM-YYYY'), 'Brake Inspection', 426.00, 'Abnormal squeaking noise was heard during braking');
+INSERT INTO maintenance_records VALUES ('M083', 'WDN 4275', TO_DATE('09-02-2024','DD-MM-YYYY'), TO_DATE('10-02-2024','DD-MM-YYYY'), 'Tyre Replacement', 469.00, 'Tyre had uneven tread wear across the contact surface');
+INSERT INTO maintenance_records VALUES ('M084', 'WDN 5386', TO_DATE('18-02-2024','DD-MM-YYYY'), TO_DATE('25-02-2024','DD-MM-YYYY'), 'Engine Service', 512.00, 'Engine performance decreased and acceleration became weaker');
+INSERT INTO maintenance_records VALUES ('M085', 'WDN 6497', TO_DATE('27-02-2024','DD-MM-YYYY'), TO_DATE('29-02-2024','DD-MM-YYYY'), 'Air Conditioning Service', 555.00, 'Air conditioning system was blowing warm air during operation');
+INSERT INTO maintenance_records VALUES ('M086', 'WDN 7528', TO_DATE('07-03-2024','DD-MM-YYYY'), TO_DATE('14-03-2024','DD-MM-YYYY'), 'Oil Change', 598.00, 'Oil pressure was lower than the recommended operating range');
+INSERT INTO maintenance_records VALUES ('M087', 'WDN 8639', TO_DATE('16-03-2024','DD-MM-YYYY'), TO_DATE('17-03-2024','DD-MM-YYYY'), 'Brake Inspection', 641.00, 'Brake fluid level was below the recommended level');
+INSERT INTO maintenance_records VALUES ('M088', 'WDN 9741', TO_DATE('25-03-2024','DD-MM-YYYY'), TO_DATE('29-03-2024','DD-MM-YYYY'), 'Tyre Replacement', 684.00, 'A crack was found on the tyre sidewall');
+INSERT INTO maintenance_records VALUES ('M089', 'WDN 1852', TO_DATE('03-04-2024','DD-MM-YYYY'), TO_DATE('06-04-2024','DD-MM-YYYY'), 'Engine Service', 727.00, 'Engine temperature increased above the normal operating range');
+INSERT INTO maintenance_records VALUES ('M090', 'WDN 2963', TO_DATE('12-04-2024','DD-MM-YYYY'), TO_DATE('16-04-2024','DD-MM-YYYY'), 'Air Conditioning Service', 770.00, 'Weak airflow was detected from the cabin air vents');
+
+INSERT INTO maintenance_records VALUES ('M091', 'QAA 3147', TO_DATE('21-04-2024','DD-MM-YYYY'), TO_DATE('27-04-2024','DD-MM-YYYY'), 'Oil Change', 813.00, 'Engine oil contained visible sludge and required replacement');
+INSERT INTO maintenance_records VALUES ('M092', 'QAA 4258', TO_DATE('30-04-2024','DD-MM-YYYY'), TO_DATE('07-05-2024','DD-MM-YYYY'), 'Brake Inspection', 856.00, 'Uneven brake pad wear was detected on the front wheels');
+INSERT INTO maintenance_records VALUES ('M093', 'QAA 5369', TO_DATE('09-05-2024','DD-MM-YYYY'), TO_DATE('12-05-2024','DD-MM-YYYY'), 'Tyre Replacement', 899.00, 'Tyre pressure was repeatedly dropping during operation');
+INSERT INTO maintenance_records VALUES ('M094', 'QAA 6471', TO_DATE('18-05-2024','DD-MM-YYYY'), TO_DATE('20-05-2024','DD-MM-YYYY'), 'Engine Service', 942.00, 'Abnormal knocking noise was detected from the engine compartment');
+INSERT INTO maintenance_records VALUES ('M095', 'QAA 7582', TO_DATE('27-05-2024','DD-MM-YYYY'), TO_DATE('30-05-2024','DD-MM-YYYY'), 'Air Conditioning Service', 985.00, 'Unusual noise was coming from the air conditioning compressor');
+INSERT INTO maintenance_records VALUES ('M096', 'QAA 8693', TO_DATE('05-06-2024','DD-MM-YYYY'), TO_DATE('08-06-2024','DD-MM-YYYY'), 'Oil Change', 208.00, 'Oil leakage was detected around the engine and oil level was below normal');
+INSERT INTO maintenance_records VALUES ('M097', 'QAA 9714', TO_DATE('14-06-2024','DD-MM-YYYY'), TO_DATE('16-06-2024','DD-MM-YYYY'), 'Brake Inspection', 251.00, 'Brake pedal felt softer than normal during operation');
+INSERT INTO maintenance_records VALUES ('M098', 'QAA 1825', TO_DATE('23-06-2024','DD-MM-YYYY'), TO_DATE('29-06-2024','DD-MM-YYYY'), 'Tyre Replacement', 294.00, 'Tyre surface showed severe wear and signs of ageing');
+INSERT INTO maintenance_records VALUES ('M099', 'QAA 2936', TO_DATE('02-07-2024','DD-MM-YYYY'), TO_DATE('05-07-2024','DD-MM-YYYY'), 'Engine Service', 337.00, 'Engine warning indicator was activated during operation');
+INSERT INTO maintenance_records VALUES ('M100', 'QAA 4057', TO_DATE('11-07-2024','DD-MM-YYYY'), TO_DATE('17-07-2024','DD-MM-YYYY'), 'Air Conditioning Service', 380.00, 'Refrigerant level was suspected to be below the required level');
+
+INSERT INTO maintenance_records VALUES ('M101', 'VAB 1021', TO_DATE('20-07-2024','DD-MM-YYYY'), TO_DATE('26-07-2024','DD-MM-YYYY'), 'Oil Change', 423.00, 'Engine oil level was low and the oil was heavily contaminated');
+INSERT INTO maintenance_records VALUES ('M102', 'VAB 2187', TO_DATE('29-07-2024','DD-MM-YYYY'), TO_DATE('04-08-2024','DD-MM-YYYY'), 'Brake Inspection', 466.00, 'Brake pads showed significant wear and braking performance was reduced');
+INSERT INTO maintenance_records VALUES ('M103', 'VAB 3345', TO_DATE('07-08-2024','DD-MM-YYYY'), TO_DATE('08-08-2024','DD-MM-YYYY'), 'Tyre Replacement', 509.00, 'Tyre tread depth was below the safe operating limit');
+INSERT INTO maintenance_records VALUES ('M104', 'VAB 4512', TO_DATE('16-08-2024','DD-MM-YYYY'), TO_DATE('21-08-2024','DD-MM-YYYY'), 'Engine Service', 552.00, 'Engine produced abnormal vibration during acceleration');
+INSERT INTO maintenance_records VALUES ('M105', 'VAB 5678', TO_DATE('27-08-2026','DD-MM-YYYY'), NULL, 'Air Conditioning Service', 595.00, 'Air conditioning cooling performance decreased significantly');
+INSERT INTO maintenance_records VALUES ('M106', 'VAB 6734', TO_DATE('03-09-2024','DD-MM-YYYY'), TO_DATE('09-09-2024','DD-MM-YYYY'), 'Oil Change', 638.00, 'Engine oil had become dark and degraded after extended use');
+INSERT INTO maintenance_records VALUES ('M107', 'VAB 7891', TO_DATE('12-09-2024','DD-MM-YYYY'), TO_DATE('14-09-2024','DD-MM-YYYY'), 'Brake Inspection', 681.00, 'Abnormal squeaking noise was heard during braking');
+INSERT INTO maintenance_records VALUES ('M108', 'VAB 8456', TO_DATE('21-09-2024','DD-MM-YYYY'), TO_DATE('26-09-2024','DD-MM-YYYY'), 'Tyre Replacement', 724.00, 'Tyre had uneven tread wear across the contact surface');
+INSERT INTO maintenance_records VALUES ('M109', 'VAB 9123', TO_DATE('27-08-2026','DD-MM-YYYY'), NULL, 'Engine Service', 767.00, 'Engine performance decreased and acceleration became weaker');
+INSERT INTO maintenance_records VALUES ('M110', 'VAB 1265', TO_DATE('09-10-2024','DD-MM-YYYY'), TO_DATE('15-10-2024','DD-MM-YYYY'), 'Air Conditioning Service', 810.00, 'Air conditioning system was blowing warm air during operation');
+
+INSERT INTO maintenance_records VALUES ('M111', 'JQX 2034', TO_DATE('18-10-2024','DD-MM-YYYY'), TO_DATE('20-10-2024','DD-MM-YYYY'), 'Oil Change', 853.00, 'Oil pressure was lower than the recommended operating range');
+INSERT INTO maintenance_records VALUES ('M112', 'JQX 3178', TO_DATE('27-10-2024','DD-MM-YYYY'), TO_DATE('29-10-2024','DD-MM-YYYY'), 'Brake Inspection', 896.00, 'Brake fluid level was below the recommended level');
+INSERT INTO maintenance_records VALUES ('M113', 'JQX 4296', TO_DATE('27-08-2026','DD-MM-YYYY'), NULL, 'Tyre Replacement', 939.00, 'A crack was found on the tyre sidewall');
+INSERT INTO maintenance_records VALUES ('M114', 'JQX 5361', TO_DATE('14-11-2024','DD-MM-YYYY'), TO_DATE('18-11-2024','DD-MM-YYYY'), 'Engine Service', 982.00, 'Engine temperature increased above the normal operating range');
+INSERT INTO maintenance_records VALUES ('M115', 'JQX 6482', TO_DATE('23-11-2024','DD-MM-YYYY'), TO_DATE('27-11-2024','DD-MM-YYYY'), 'Air Conditioning Service', 205.00, 'Weak airflow was detected from the cabin air vents');
+INSERT INTO maintenance_records VALUES ('M116', 'JQX 7519', TO_DATE('27-08-2026','DD-MM-YYYY'), NULL, 'Oil Change', 248.00, 'Engine oil contained visible sludge and required replacement');
+INSERT INTO maintenance_records VALUES ('M117', 'JQX 8643', TO_DATE('11-12-2024','DD-MM-YYYY'), TO_DATE('14-12-2024','DD-MM-YYYY'), 'Brake Inspection', 291.00, 'Uneven brake pad wear was detected on the front wheels');
+INSERT INTO maintenance_records VALUES ('M118', 'JQX 9752', TO_DATE('20-12-2024','DD-MM-YYYY'), TO_DATE('26-12-2024','DD-MM-YYYY'), 'Tyre Replacement', 334.00, 'Tyre pressure was repeatedly dropping during operation');
+INSERT INTO maintenance_records VALUES ('M119', 'JQX 1846', TO_DATE('29-12-2024','DD-MM-YYYY'), TO_DATE('04-01-2025','DD-MM-YYYY'), 'Engine Service', 377.00, 'Abnormal knocking noise was detected from the engine compartment');
+INSERT INTO maintenance_records VALUES ('M120', 'JQX 2967', TO_DATE('07-01-2025','DD-MM-YYYY'), TO_DATE('12-01-2025','DD-MM-YYYY'), 'Air Conditioning Service', 420.00, 'Unusual noise was coming from the air conditioning compressor');
+
+INSERT INTO maintenance_records VALUES ('M121', 'PNK 1058', TO_DATE('16-01-2025','DD-MM-YYYY'), TO_DATE('18-01-2025','DD-MM-YYYY'), 'Oil Change', 463.00, 'Oil leakage was detected around the engine and oil level was below normal');
+INSERT INTO maintenance_records VALUES ('M122', 'PNK 2174', TO_DATE('25-01-2025','DD-MM-YYYY'), TO_DATE('31-01-2025','DD-MM-YYYY'), 'Brake Inspection', 506.00, 'Brake pedal felt softer than normal during operation');
+INSERT INTO maintenance_records VALUES ('M123', 'PNK 3295', TO_DATE('03-02-2025','DD-MM-YYYY'), TO_DATE('06-02-2025','DD-MM-YYYY'), 'Tyre Replacement', 549.00, 'Tyre surface showed severe wear and signs of ageing');
+INSERT INTO maintenance_records VALUES ('M124', 'PNK 4316', TO_DATE('27-08-2026','DD-MM-YYYY'), NULL, 'Engine Service', 592.00, 'Engine warning indicator was activated during operation');
+INSERT INTO maintenance_records VALUES ('M125', 'PNK 5427', TO_DATE('21-02-2025','DD-MM-YYYY'), TO_DATE('28-02-2025','DD-MM-YYYY'), 'Air Conditioning Service', 635.00, 'Refrigerant level was suspected to be below the required level');
+INSERT INTO maintenance_records VALUES ('M126', 'PNK 6583', TO_DATE('02-03-2025','DD-MM-YYYY'), TO_DATE('09-03-2025','DD-MM-YYYY'), 'Oil Change', 678.00, 'Engine oil level was low and the oil was heavily contaminated');
+INSERT INTO maintenance_records VALUES ('M127', 'PNK 7641', TO_DATE('11-03-2025','DD-MM-YYYY'), TO_DATE('18-03-2025','DD-MM-YYYY'), 'Brake Inspection', 721.00, 'Brake pads showed significant wear and braking performance was reduced');
+INSERT INTO maintenance_records VALUES ('M128', 'PNK 8752', TO_DATE('27-08-2026','DD-MM-YYYY'), NULL, 'Tyre Replacement', 764.00, 'Tyre tread depth was below the safe operating limit');
+INSERT INTO maintenance_records VALUES ('M129', 'PNK 9864', TO_DATE('29-03-2025','DD-MM-YYYY'), TO_DATE('30-03-2025','DD-MM-YYYY'), 'Engine Service', 807.00, 'Engine produced abnormal vibration during acceleration');
+INSERT INTO maintenance_records VALUES ('M130', 'PNK 1937', TO_DATE('07-04-2025','DD-MM-YYYY'), TO_DATE('09-04-2025','DD-MM-YYYY'), 'Air Conditioning Service', 850.00, 'Air conditioning cooling performance decreased significantly');
+
+INSERT INTO maintenance_records VALUES ('M131', 'WDN 2048', TO_DATE('16-04-2025','DD-MM-YYYY'), TO_DATE('23-04-2025','DD-MM-YYYY'), 'Oil Change', 893.00, 'Engine oil had become dark and degraded after extended use');
+INSERT INTO maintenance_records VALUES ('M132', 'WDN 3169', TO_DATE('25-04-2025','DD-MM-YYYY'), TO_DATE('26-04-2025','DD-MM-YYYY'), 'Brake Inspection', 936.00, 'Abnormal squeaking noise was heard during braking');
+INSERT INTO maintenance_records VALUES ('M133', 'WDN 4275', TO_DATE('04-05-2025','DD-MM-YYYY'), TO_DATE('11-05-2025','DD-MM-YYYY'), 'Tyre Replacement', 979.00, 'Tyre had uneven tread wear across the contact surface');
+INSERT INTO maintenance_records VALUES ('M134', 'WDN 5386', TO_DATE('27-08-2026','DD-MM-YYYY'), NULL, 'Engine Service', 202.00, 'Engine performance decreased and acceleration became weaker');
+INSERT INTO maintenance_records VALUES ('M135', 'WDN 6497', TO_DATE('22-05-2025','DD-MM-YYYY'), TO_DATE('25-05-2025','DD-MM-YYYY'), 'Air Conditioning Service', 245.00, 'Air conditioning system was blowing warm air during operation');
+INSERT INTO maintenance_records VALUES ('M136', 'WDN 7528', TO_DATE('31-05-2025','DD-MM-YYYY'), TO_DATE('04-06-2025','DD-MM-YYYY'), 'Oil Change', 288.00, 'Oil pressure was lower than the recommended operating range');
+INSERT INTO maintenance_records VALUES ('M137', 'WDN 8639', TO_DATE('09-06-2025','DD-MM-YYYY'), TO_DATE('12-06-2025','DD-MM-YYYY'), 'Brake Inspection', 331.00, 'Brake fluid level was below the recommended level');
+INSERT INTO maintenance_records VALUES ('M138', 'WDN 9741', TO_DATE('27-08-2026','DD-MM-YYYY'), NULL, 'Tyre Replacement', 374.00, 'A crack was found on the tyre sidewall');
+INSERT INTO maintenance_records VALUES ('M139', 'WDN 1852', TO_DATE('27-06-2025','DD-MM-YYYY'), TO_DATE('28-06-2025','DD-MM-YYYY'), 'Engine Service', 417.00, 'Engine temperature increased above the normal operating range');
+INSERT INTO maintenance_records VALUES ('M140', 'WDN 2963', TO_DATE('06-07-2025','DD-MM-YYYY'), TO_DATE('08-07-2025','DD-MM-YYYY'), 'Air Conditioning Service', 460.00, 'Weak airflow was detected from the cabin air vents');
+
+INSERT INTO maintenance_records VALUES ('M141', 'QAA 3147', TO_DATE('15-07-2025','DD-MM-YYYY'), TO_DATE('20-07-2025','DD-MM-YYYY'), 'Oil Change', 503.00, 'Engine oil contained visible sludge and required replacement');
+INSERT INTO maintenance_records VALUES ('M142', 'QAA 4258', TO_DATE('24-07-2025','DD-MM-YYYY'), TO_DATE('30-07-2025','DD-MM-YYYY'), 'Brake Inspection', 546.00, 'Uneven brake pad wear was detected on the front wheels');
+INSERT INTO maintenance_records VALUES ('M143', 'QAA 5369', TO_DATE('27-08-2026','DD-MM-YYYY'), NULL, 'Tyre Replacement', 589.00, 'Tyre pressure was repeatedly dropping during operation');
+INSERT INTO maintenance_records VALUES ('M144', 'QAA 6471', TO_DATE('11-08-2025','DD-MM-YYYY'), TO_DATE('14-08-2025','DD-MM-YYYY'), 'Engine Service', 632.00, 'Abnormal knocking noise was detected from the engine compartment');
+INSERT INTO maintenance_records VALUES ('M145', 'QAA 7582', TO_DATE('20-08-2025','DD-MM-YYYY'), TO_DATE('22-08-2025','DD-MM-YYYY'), 'Air Conditioning Service', 675.00, 'Unusual noise was coming from the air conditioning compressor');
+INSERT INTO maintenance_records VALUES ('M146', 'QAA 8693', TO_DATE('29-08-2025','DD-MM-YYYY'), TO_DATE('04-09-2025','DD-MM-YYYY'), 'Oil Change', 718.00, 'Oil leakage was detected around the engine and oil level was below normal');
+INSERT INTO maintenance_records VALUES ('M147', 'QAA 9714', TO_DATE('07-09-2025','DD-MM-YYYY'), TO_DATE('11-09-2025','DD-MM-YYYY'), 'Brake Inspection', 761.00, 'Brake pedal felt softer than normal during operation');
+INSERT INTO maintenance_records VALUES ('M148', 'QAA 1825', TO_DATE('16-09-2025','DD-MM-YYYY'), TO_DATE('20-09-2025','DD-MM-YYYY'), 'Tyre Replacement', 804.00, 'Tyre surface showed severe wear and signs of ageing');
+INSERT INTO maintenance_records VALUES ('M149', 'QAA 2936', TO_DATE('27-08-2026','DD-MM-YYYY'), NULL, 'Engine Service', 847.00, 'Engine warning indicator was activated during operation');
+INSERT INTO maintenance_records VALUES ('M150', 'QAA 4057', TO_DATE('04-10-2025','DD-MM-YYYY'), TO_DATE('10-10-2025','DD-MM-YYYY'), 'Air Conditioning Service', 890.00, 'Refrigerant level was suspected to be below the required level');
+
+COMMIT;
